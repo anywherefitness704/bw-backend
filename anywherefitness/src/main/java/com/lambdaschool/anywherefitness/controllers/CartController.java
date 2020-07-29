@@ -5,6 +5,7 @@ import com.lambdaschool.anywherefitness.models.Cart;
 import com.lambdaschool.anywherefitness.models.Product;
 import com.lambdaschool.anywherefitness.models.User;
 import com.lambdaschool.anywherefitness.services.CartService;
+import com.lambdaschool.anywherefitness.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,8 @@
 package com.lambdaschool.anywherefitness.controllers;
 
-import com.lambdaschool.shoppingcart.models.User;
-import com.lambdaschool.shoppingcart.services.UserService;
+
+import com.lambdaschool.anywherefitness.models.User;
+import com.lambdaschool.anywherefitness.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
