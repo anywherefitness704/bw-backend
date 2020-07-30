@@ -25,7 +25,7 @@ public class Role extends Auditable
 
 
     @Column(nullable = false,
-        unique = true)
+        unique = false)
     private String name;
 
 

@@ -86,6 +86,8 @@ public class UserServiceImpl
         newUser.setPasswordNoEncrypt(user.getPassword());
         newUser.setComments(user.getComments());
 
+        
+
         newUser.getRoles()
                 .clear();
         for (UserRoles ur : user.getRoles())
