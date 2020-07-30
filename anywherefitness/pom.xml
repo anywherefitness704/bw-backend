@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lambdaschool</groupId>
-    <artifactId>bookstore</artifactId>
+    <artifactId>anywherefitness</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bookstore</name>
-    <description>Bookstore project for Spring Boot</description>
+    <name>bjs-anywherefitness</name>
+    <description>database and API setup for website</description>
 
     <properties>
         <java.version>14</java.version>
@@ -99,7 +99,7 @@
         <plugins>
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
-                <artifactId>heroku-deploy</artifactId>
+                <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.2</version>
                 <configuration>
                     <appName>${project.build.finalName}</appName>
